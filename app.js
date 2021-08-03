@@ -1,9 +1,11 @@
-// Modules
-const names = require ('./2-names.js');
-const {peter} = require ('./2-names.js');
-const sayHi = require('./3-utils');
+const path = require('path');
+console.log(path.sep);
 
+const filePath = path.join('/content', 'subfolder', 'test.txt');
+console.log(filePath);
 
-sayHi('susan')
-sayHi(names.john)
-sayHi(peter)
+const base = path.basename(filePath);
+console.log(base);
+
+const absolute = path.resolve(__dirname, 'content', 'subfolder', 'test.txt');
+console.log(absolute);
