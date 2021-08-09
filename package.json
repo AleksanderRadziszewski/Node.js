@@ -1,0 +1,24 @@
+{
+  "name": "first_project_node",
+  "version": "1.0.0",
+  "description": "Some exercises from Node.js",
+  "main": "1-intro.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AleksanderRadziszewski/Node.js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AleksanderRadziszewski/Node.js/issues"
+  },
+  "homepage": "https://github.com/AleksanderRadziszewski/Node.js#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.0",
+    "lodash": "^4.17.21"
+  }
+}
