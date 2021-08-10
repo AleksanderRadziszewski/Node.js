@@ -4,7 +4,8 @@
   "description": "Some exercises from Node.js",
   "main": "1-intro.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,9 @@
   },
   "homepage": "https://github.com/AleksanderRadziszewski/Node.js#readme",
   "dependencies": {
-    "bootstrap": "^5.1.0",
     "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
   }
 }
