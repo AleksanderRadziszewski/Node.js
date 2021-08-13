@@ -7,14 +7,29 @@ const getText = (path) => {
                 reject(err)
                 return
             }
-            else{
+            else {
                 resolve(data)
             }
         })
     })
-    
+
 }
 
-getText('./content/first.txt')
-    .then((result) => console.log(result))
-    .catch((err) => console.log(err) )
+const start = async () => {
+    try {
+        const first = await getText('./content/first.txt');
+        console.log(first)
+
+    } catch (error) {
+        console.log(error)
+
+    }
+
+
+}
+
+start()
+
+// getText('./content/first.txt')
+//     .then((result) => console.log(result))
+//     .catch((err) => console.log(err))
