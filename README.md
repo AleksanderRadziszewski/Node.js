@@ -22,5 +22,14 @@ Some exercises from Node.js
 
 <img width="511" alt="Zrzut ekranu 2021-08-18 o 12 32 34" src="https://user-images.githubusercontent.com/56914063/129883740-4f4f55a6-7df3-4f45-b00c-9bb15c8bc957.png">
 
+## 3. Streams
+
+## a)Readable (right after chaning size of chunk)
+
+![Zrzut ekranu 2021-08-18 o 14 27 06](https://user-images.githubusercontent.com/56914063/129898262-e53d8b16-87fa-477a-b9e6-29d1d3701d8d.png)
+
+
+  
+
 
 
