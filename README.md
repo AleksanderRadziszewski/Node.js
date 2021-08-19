@@ -28,6 +28,15 @@ Some exercises from Node.js
 
 ![Zrzut ekranu 2021-08-18 o 14 27 06](https://user-images.githubusercontent.com/56914063/129898262-e53d8b16-87fa-477a-b9e6-29d1d3701d8d.png)
 
+## b) Readable and Writeable (pipe method). 
+
+![Zrzut ekranu 2021-08-19 o 10 31 55](https://user-images.githubusercontent.com/56914063/130037041-54c8ebc1-8129-4522-a63d-e2d4f82d252f.png)
+
+Transfer encoding: chunked
+
+![Zrzut ekranu 2021-08-19 o 10 32 37](https://user-images.githubusercontent.com/56914063/130037180-b59a2397-4281-4f5c-894d-3eade89ff89f.png)
+
+
 
   
 
