@@ -19,7 +19,8 @@
   },
   "homepage": "https://github.com/AleksanderRadziszewski/Node.js#readme",
   "dependencies": {
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "mongodb": "^4.1.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.12"
