@@ -9,8 +9,8 @@ mongoClient.connect(url, {}, (error, client) => {
     }
     const db = client.db(dbname)
     db.collection('users').insertOne({
-        name: 'Thrmund',
-        age: 30
+        name: 'Andy',
+        age: 32
     }, (error, result) => {
         if (error) {
             console.log('Adding user error', error)

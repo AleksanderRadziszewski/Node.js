@@ -11,7 +11,7 @@ mongoClient.connect(url, {}, (error, client) => {
     db.collection('users').deleteMany({
         age: 30
     }, (error, result) => {
-            console.log(result)
+        console.log(result)
     })
 
     db.collection('users').find({}).toArray((error, results) => {
