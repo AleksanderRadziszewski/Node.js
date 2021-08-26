@@ -56,6 +56,11 @@ Transfer encoding: chunked
 
 <img width="1144" alt="comparison_operator" src="https://user-images.githubusercontent.com/56914063/130832067-99c12c8f-82b3-4299-abbd-783741189809.png">
 
+### e) GUI MongoCompass
+
+<img width="1015" alt="Zrzut ekranu 2021-08-26 o 16 21 22" src="https://user-images.githubusercontent.com/56914063/130980245-e764853d-535c-4f02-8eb1-cf730929d4d7.png">
+
+
 
 
   
