@@ -39,26 +39,39 @@ Transfer encoding: chunked
 ## 4. MongoDB
 
 
-### a) Inserting data
+### 4.1 Inserting data
 
 <img width="893" alt="Zrzut ekranu 2021-08-25 o 18 53 01" src="https://user-images.githubusercontent.com/56914063/130832630-bd9c9f4e-eab8-48fb-b219-c671b0c20425.png">
 
-### b) UpdateMany
+### 4.2 UpdateMany
 
 <img width="898" alt="updateMany" src="https://user-images.githubusercontent.com/56914063/130831954-ed850210-258e-4c9f-83d8-ef5b299dd1f2.png">
 
-### c) DeleteMany!
+### 4.3 DeleteMany!
 
 <img width="689" alt="delete" src="https://user-images.githubusercontent.com/56914063/130832100-a60c2983-fd00-44fb-b5b0-38f451b133c9.png">
 
 
-### d) Comparison operator
+### 4.4 Comparison operator
 
 <img width="1144" alt="comparison_operator" src="https://user-images.githubusercontent.com/56914063/130832067-99c12c8f-82b3-4299-abbd-783741189809.png">
 
-### e) GUI MongoCompass
+### 4.5 GUI MongoCompass
 
 <img width="1015" alt="Zrzut ekranu 2021-08-26 o 16 21 22" src="https://user-images.githubusercontent.com/56914063/130980245-e764853d-535c-4f02-8eb1-cf730929d4d7.png">
+
+### 4.6 Creating id, searching by id
+
+<img width="899" alt="searching_by_id" src="https://user-images.githubusercontent.com/56914063/131222395-95912424-fe69-4986-b0b1-1fd321ab4eb9.png">
+
+
+## 5. Mongoose
+
+### 5.1 Creating and inserting new object
+
+<img width="965" alt="Zrzut ekranu 2021-08-28 o 17 00 20" src="https://user-images.githubusercontent.com/56914063/131222402-27ab1ae8-e873-41a7-976f-fc42310ec099.png">
+
+
 
 
 
