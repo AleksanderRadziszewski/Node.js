@@ -1,3 +1,5 @@
+const { ObjectId } = require('mongodb')
+
 const mongoClient = require('mongodb').MongoClient
 
 const url = 'mongodb://127.0.0.1:27017'
@@ -8,9 +10,11 @@ mongoClient.connect(url, {}, (error, client) => {
         console.log('Can not connect to the database')
     }
     const db = client.db(dbname)
+    const id = new ObjectId()
     db.collection('users').insertOne({
-        name: 'Andy',
-        age: 32
+        _id: id.toHexString(),
+        name: 'Jay',
+        age: 22
     }, (error, result) => {
         if (error) {
             console.log('Adding user error', error)

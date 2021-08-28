@@ -16,8 +16,9 @@ mongoClient.connect(url, {}, (error, client) => {
 
     const db = client.db(dbname)
 
-    db.collection('users').find({}).toArray((error, result) => {
+    db.collection('users').findOne({
+        _id: new mongo.ObjectId("612a437368159108d2bc9b10")
+    },(error, result) => {
         console.log(result)
     })
-
 })
